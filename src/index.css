@@ -59,6 +59,10 @@ body { background: #f7f8fa; }
 .tip-callout { align-items: center; background: #eaf5df; border-left: 3px solid #9aca68; color: #66745f; display: flex; font-size: 12px; gap: 18px; margin-top: 18px; padding: 16px 18px; }.tip-callout strong { color: #3e593c; white-space: nowrap; }
 .members-section { align-items: center; background: #ffffff; border-top: 1px solid #e8ebee; display: grid; gap: 60px; grid-template-columns: 1fr 1fr; padding: 72px clamp(35px, 7vw, 110px); }.members-list { counter-reset: member; display: grid; gap: 0; list-style: none; margin: 0; padding: 0; }.members-list li { align-items: center; border-bottom: 1px solid #e1e8e3; color: #53645c; display: flex; font-size: 13px; gap: 15px; padding: 15px 10px 15px 0; }.members-list li::before { color: #8ca399; content: counter(member); counter-increment: member; font-size: 10px; font-weight: 800; letter-spacing: .08em; min-width: 22px; }
 .references { background: #1e2d29; }
+.references-heading > p { color: #9db2a6; font-size: 12px; line-height: 1.5; margin-top: 20px; max-width: 260px; }
+.reference-list { gap: 0; }
+.reference-list a { font-size: 11px; line-height: 1.6; padding: 14px 20px 14px 0; }
+.reference-list a em { color: #e2eee7; }
 .consistency-section { background: #ffffff; color: var(--ink); }
 .consistency-section .section-kicker { color: #8ea098; }
 .consistency-section .section-intro > p { color: var(--muted); }
